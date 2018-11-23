@@ -1,0 +1,62 @@
+@import "../scss/mixin";
+@import "../scss/variables";
+
+.class_button{
+  margin-top: 90px ;
+  @include common-styles();
+}
+
+.vo_simple_button {
+
+  $initial-color: rgba(0, 0, 0, 0.04);
+  $final-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000000;
+  padding: 8px 45px;
+  margin: 28px 37px 0 42px;
+  background: none;
+  border: none;
+  outline: none;
+  @include common-styles();
+  @include with-ripple($initial-color, $final-color);
+}
+
+.vo_color_button_f{
+  color: $color-blue;
+}
+.vo_color_button_s{
+  color: $color-grey;
+}
+.vo_button_border{
+  background: white;
+  @include shadow_button;
+
+}
+.vo_color_button_t{
+  $initial-color: rgba(22, 89, 255, 0.84);
+  $final-color: rgba(33, 103, 255, 0.73);
+  @include with-ripple($initial-color, $final-color);
+
+  color: white;
+  background: $color-blue-dark;
+}
+.vo_button_icon{
+  background: none;
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 100px;
+  outline: none;
+  cursor: pointer;
+  color:#757575;
+  $initial-color: rgba(0, 0, 0, 0.04);
+  $final-color: rgba(0, 0, 0, 0.1);
+  @include with-ripple($initial-color, $final-color);
+}
+
+
+
+
+

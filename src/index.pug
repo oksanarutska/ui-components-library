@@ -1,0 +1,43 @@
+include exemples/button
+
+doctype html
+html(lang='en')
+
+    head
+        meta(charset='UTF-8')
+        title Title
+        link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+        link(rel='stylesheet', href='./css/main.css')
+    body
+        h1.vo_b_title Buttons
+        .class_button
+            span.vo_b_chapter Flat buttons
+            div
+            +button({label: 'BUTTON', class: 'vo_simple_button'})
+            +button({label: 'COLORED', class: 'vo_simple_button vo_color_button_f'})
+            +button({label: 'DISABLED', class: 'vo_simple_button vo_color_button_s'})
+        .class_button
+            span.vo_b_chapter Raised buttons
+            div
+            +button({label: 'BUTTON', class: 'vo_simple_button vo_button_border'})
+            +button({label: 'COLORED', class: 'vo_simple_button vo_color_button_t vo_button_border'})
+            +button({label: 'DISABLED', class: 'vo_simple_button vo_color_button_s vo_button_border'})
+
+        h1.vo_b_title Icon Button
+        .class_button
+            span.vo_b_chapter icon buttons
+            +button({label: 'dehaze', class: 'material-icons vo_button_icon'})
+            +button({label: 'arrow_back', class: 'material-icons vo_button_icon'})
+            +button({label: 'arrow_forward', class: 'material-icons vo_button_icon'})
+            +button({label: 'check', class: 'material-icons vo_button_icon'})
+            +button({label: 'close', class: 'material-icons vo_button_icon'})
+            +button({label: 'fullscreen', class: 'material-icons vo_button_icon'})
+            +button({label: 'fullscreen_exit', class: 'material-icons vo_button_icon'})
+            +button({label: 'more_vert', class: 'material-icons vo_button_icon'})
+            +button({label: 'refresh', class: 'material-icons vo_button_icon'})
+        .class_button
+            span.vo_b_chapter styled
+            +button({label: 'favorite', class: 'material-icons vo_button_icon'})
+            +button({label: 'favorite', class: 'material-icons vo_button_icon'})
+            +button({label: 'favorite', class: 'material-icons vo_button_icon'})
