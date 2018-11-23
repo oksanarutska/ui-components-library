@@ -1,0 +1,90 @@
+.class_button {
+  margin-top: 90px;
+  font-family: 'Roboto', sans-serif; }
+  .class_button, .class_button * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.vo_simple_button {
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000000;
+  padding: 8px 45px;
+  margin: 28px 37px 0 42px;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_simple_button, .vo_simple_button * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .vo_simple_button:hover {
+    background: rgba(0, 0, 0, 0.04) radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.04) 1%) center/15000%; }
+  .vo_simple_button:active {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s; }
+
+.vo_color_button_f {
+  color: #328afb; }
+
+.vo_color_button_s {
+  color: #a8a8a8; }
+
+.vo_button_border {
+  background: white;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16); }
+
+.vo_color_button_t {
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s;
+  color: white;
+  background: #4285f4; }
+  .vo_color_button_t:hover {
+    background: rgba(22, 89, 255, 0.84) radial-gradient(circle, transparent 1%, rgba(22, 89, 255, 0.84) 1%) center/15000%; }
+  .vo_color_button_t:active {
+    background-color: rgba(33, 103, 255, 0.73);
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s; }
+
+.vo_button_icon {
+  background: none;
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 100px;
+  outline: none;
+  cursor: pointer;
+  color: #757575;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_button_icon:hover {
+    background: rgba(0, 0, 0, 0.04) radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.04) 1%) center/15000%; }
+  .vo_button_icon:active {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s; }
+
+* {
+  font-family: "Roboto", sans-serif; }
+
+.vo_b_title {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #5265a2;
+  margin: 50px 0 84px 26px; }
+
+.vo_b_chapter {
+  font-size: 16px;
+  color: #333333;
+  margin-left: 40px; }
