@@ -1,16 +1,33 @@
+<<<<<<< Updated upstream
 .class_button {
   margin-top: 90px;
   font-family: 'Roboto', sans-serif; }
+=======
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none; }
+
+.class_button {
+  margin-top: 90px;
+  font-family: 'Roboto', sans-serif;
+  position: relative; }
+>>>>>>> Stashed changes
   .class_button, .class_button * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
 
 .vo_simple_button {
+<<<<<<< Updated upstream
   cursor: pointer;
+=======
+>>>>>>> Stashed changes
   border-radius: 5px;
   font-size: 16px;
   color: #000000;
   padding: 8px 45px;
+<<<<<<< Updated upstream
   margin: 28px 37px 0 42px;
   background: none;
   border: none;
@@ -25,11 +42,30 @@
   .vo_simple_button:hover {
     background: rgba(0, 0, 0, 0.04) radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.04) 1%) center/15000%; }
   .vo_simple_button:active {
+=======
+  margin: 28px 37px 0 42px; }
+  .vo_simple_button_color_blue {
+    color: #328afb; }
+  .vo_simple_button_color_gray {
+    color: #a8a8a8; }
+  .vo_simple_button_color_white {
+    color: #ffffff; }
+
+.vo_ripple_gray {
+  background: #ffffff;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_ripple_gray:hover {
+    background: rgba(0, 0, 0, 0.04) radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.04) 1%) center/15000%; }
+  .vo_ripple_gray:active {
+>>>>>>> Stashed changes
     background-color: rgba(0, 0, 0, 0.1);
     background-size: 100%;
     -webkit-transition: background 0s;
     transition: background 0s; }
 
+<<<<<<< Updated upstream
 .vo_color_button_f {
   color: #328afb; }
 
@@ -50,12 +86,28 @@
   .vo_color_button_t:hover {
     background: rgba(22, 89, 255, 0.84) radial-gradient(circle, transparent 1%, rgba(22, 89, 255, 0.84) 1%) center/15000%; }
   .vo_color_button_t:active {
+=======
+.vo_button_border {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16); }
+
+.vo_ripple_blue {
+  background: #4285f4;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_ripple_blue:hover {
+    background: rgba(22, 89, 255, 0.84) radial-gradient(circle, transparent 1%, rgba(22, 89, 255, 0.84) 1%) center/15000%; }
+  .vo_ripple_blue:active {
+>>>>>>> Stashed changes
     background-color: rgba(33, 103, 255, 0.73);
     background-size: 100%;
     -webkit-transition: background 0s;
     transition: background 0s; }
 
 .vo_button_icon {
+<<<<<<< Updated upstream
   background: none;
   border: none;
   padding: 10px;
@@ -71,13 +123,182 @@
     background: rgba(0, 0, 0, 0.04) radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.04) 1%) center/15000%; }
   .vo_button_icon:active {
     background-color: rgba(0, 0, 0, 0.1);
+=======
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 100px;
+  color: #757575; }
+  .vo_button_icon_color_black {
+    color: #000000; }
+  .vo_button_icon_color_pink {
+    color: #e91e63; }
+
+.vo_border_quarter {
+  border-radius: 5px; }
+
+.vo_floating_button {
+  padding: 20px;
+  margin-left: 21px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16); }
+  .vo_floating_button_color_white {
+    color: #ffffff; }
+  .vo_floating_button_color_gray {
+    color: #a8a8a8; }
+  .vo_floating_button_indent {
+    position: relative;
+    margin-right: 10px; }
+
+.vo_ripple_pink {
+  background: #e91e63;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_ripple_pink:hover {
+    background: rgba(244, 14, 192, 0.71) radial-gradient(circle, transparent 1%, rgba(244, 14, 192, 0.71) 1%) center/15000%; }
+  .vo_ripple_pink:active {
+    background-color: rgba(244, 143, 211, 0.6);
     background-size: 100%;
     -webkit-transition: background 0s;
     transition: background 0s; }
 
+.vo_class_indent {
+  margin: 20px 35px 25px 70px; }
+
+.vo_mini_button {
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16); }
+  .vo_mini_button_color_white {
+    color: #ffffff; }
+  .vo_mini_button_color_gray {
+    color: #a8a8a8; }
+
+.vo_ripple_green {
+  background: #259b24;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_ripple_green:hover {
+    background: rgba(83, 244, 12, 0.92) radial-gradient(circle, transparent 1%, rgba(83, 244, 12, 0.92) 1%) center/15000%; }
+  .vo_ripple_green:active {
+    background-color: rgba(103, 244, 96, 0.6);
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s; }
+
+.vo_ripple_purple {
+  background: #673ab7;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_ripple_purple:hover {
+    background: rgba(102, 15, 244, 0.92) radial-gradient(circle, transparent 1%, rgba(102, 15, 244, 0.92) 1%) center/15000%; }
+  .vo_ripple_purple:active {
+    background-color: rgba(111, 90, 244, 0.6);
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s; }
+
+.vo_position_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.vo_footer_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.vo_footer_right {
+  display: table-caption; }
+
+.vo_footer_right_button {
+  margin-bottom: 15px; }
+
+.vo_ripple_orange {
+  background: #f54a29;
+  background-position: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s; }
+  .vo_ripple_orange:hover {
+    background: rgba(244, 132, 45, 0.92) radial-gradient(circle, transparent 1%, rgba(244, 132, 45, 0.92) 1%) center/15000%; }
+  .vo_ripple_orange:active {
+    background-color: rgba(244, 167, 26, 0.84);
+>>>>>>> Stashed changes
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s; }
+
+<<<<<<< Updated upstream
 * {
   font-family: "Roboto", sans-serif; }
 
+=======
+.tooltip {
+  visibility: hidden;
+  opacity: 0; }
+
+.tooltip_wrapper {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px; }
+  .tooltip_wrapper:hover .tooltip {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    visibility: visible;
+    opacity: 1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #ffffff;
+    padding: 10px 15px;
+    background: #a8a8a8; }
+    .tooltip_wrapper:hover .tooltip_left {
+      position: absolute;
+      left: 0; }
+    .tooltip_wrapper:hover .tooltip_top {
+      position: absolute;
+      top: 0;
+      right: 40%; }
+    .tooltip_wrapper:hover .tooltip_bottom {
+      position: absolute;
+      bottom: 0;
+      left: 30%; }
+
+.vo_button_tooltip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+* {
+  font-family: "Roboto", sans-serif; }
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none; }
+
+>>>>>>> Stashed changes
 .vo_b_title {
   font-size: 24px;
   letter-spacing: 1px;

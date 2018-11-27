@@ -1,2 +1,102 @@
+<<<<<<< Updated upstream
 mixin button(args)
     button(class=args.class)=args.label
+=======
+include _mixin_button
+
+h1.vo_b_title Buttons
+    .class_button
+        span.vo_b_chapter Flat buttons
+        div
+        +button({label: 'BUTTON', class: 'vo_simple_button vo_ripple_gray'})
+        +button({label: 'COLORED', class: 'vo_simple_button vo_ripple_gray vo_simple_button_color_blue'})
+        +button({label: 'DISABLED', class: 'vo_simple_button vo_ripple_gray vo_simple_button_color_gray'})
+    .class_button
+        span.vo_b_chapter Raised buttons
+        div
+        +button({label: 'BUTTON', class: 'vo_simple_button vo_ripple_gray vo_button_border'})
+        +button({
+            label: 'COLORED',
+            class: 'vo_simple_button vo_ripple_blue vo_simple_button_color_white vo_button_border'
+        })
+        +button({
+            label: 'DISABLED',
+            class: 'vo_simple_button vo_ripple_gray vo_simple_button_color_gray vo_button_border'
+        })
+
+    h1.vo_b_title Icon Button
+    .class_button
+        span.vo_b_chapter icon buttons
+        +button({label: 'dehaze', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'arrow_back', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'arrow_forward', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'check', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'close', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'fullscreen', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'fullscreen_exit', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'more_vert', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'refresh', class: 'material-icons vo_button_icon vo_ripple_gray'})
+    .class_button
+        span.vo_b_chapter styled
+        +button({label: 'favorite', class: 'material-icons vo_button_icon vo_button_icon_color_black vo_ripple_gray'})
+        +button({label: 'favorite', class: 'material-icons vo_button_icon vo_button_icon_color_pink vo_ripple_gray'})
+        +button({label: 'favorite', class: 'material-icons vo_button_icon vo_ripple_gray'})
+    .class_button
+        span.vo_b_chapter styled
+        +button({
+            label: 'directions_walk',
+            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray'
+        })
+        +button({
+            label: 'directions_bike',
+            class: 'material-icons vo_button_icon vo_button_icon_color_black vo_border_quarter vo_ripple_gray'
+        })
+        +button({
+            label: 'directions_bus',
+            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray'
+        })
+        +button({
+            label: 'directions_car',
+            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray'
+        })
+.vo_footer_button
+    .vo_position_footer
+        h1.vo_b_title Floating Action Button
+        .class_button
+            span.vo_b_chapter Regular
+            .vo_class_indent
+                +button({
+                    label: 'arrow_forward',
+                    class: 'material-icons vo_floating_button vo_ripple_pink vo_floating_button_color_white'
+                })
+                +button({label: 'create', class: 'material-icons vo_floating_button vo_floating_button_color_white vo_ripple_blue'})
+                +button({label: 'add', class: 'material-icons vo_floating_button vo_floating_button_color_gray vo_ripple_gray '})
+
+            span.vo_b_chapter  Mini
+            .vo_class_indent
+                +button({label: 'check', class: 'material-icons vo_mini_button vo_ripple_green vo_mini_button_color_white'})
+                +button({label: 'reply', class: 'material-icons vo_mini_button vo_ripple_purple vo_mini_button_color_white'})
+                +button({label: 'close', class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray'})
+    .vo_position_footer
+        h1.vo_b_title FAB Speed Dial
+            .class_button
+                .vo_footer_right
+                    +button({
+                        label: 'close',
+                        class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
+                    })
+                    +button({
+                        label: 'favorite',
+                        class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
+                    })
+                    +button({
+                        label: 'create',
+                        class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
+                    })
+                    +button({
+                        label: 'dehaze',
+                        class: 'material-icons vo_floating_button vo_ripple_orange vo_mini_button_color_white'
+                    })
+
+
+>>>>>>> Stashed changes
