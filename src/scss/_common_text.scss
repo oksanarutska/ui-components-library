@@ -3,6 +3,13 @@
 * {
   font-family: $font-family;
 }
+button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+
+}
 
 .vo_b_title {
   font-size: 24px;
@@ -15,6 +22,9 @@
   font-size: 16px;
   color: #333333;
   margin-left: 40px;
+}
+.vo_button_tooltip{
+
 }
 
 
