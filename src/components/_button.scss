@@ -22,6 +22,7 @@ button{
   color: $color-black;
   padding: 8px 45px;
   margin: 28px 37px 0 42px;
+  position: relative;
 
   &_color_blue {
     color: $color-blue;
@@ -32,26 +33,29 @@ button{
   &_color_white{
     color: $color_white;
   }
+  &:hover{
+    background-color:rgba(0, 0, 0, 0.04) ;
+  }
+  &_background_blue{
+    background-color: $color_light_blue;
+    &:hover{
+      background-color: $color-blue;
+    }
+  }
+
 }
-.vo_ripple_gray{
-  background: $color-white;
-  $initial-color: rgba(0, 0, 0, 0.04);
-  $final-color: rgba(0, 0, 0, 0.1);
-  @include with-ripple($initial-color, $final-color);
+.vo_ripple_blue .rippleJS .ripple {
+  background: $color-blue-dark;
 }
+
+
+
 
 .vo_button_border {
-  background: $color-white;
   @include shadow_button;
 }
-.vo_ripple_blue {
-  background: $color-blue-dark;
-  $initial-color: rgba(22, 89, 255, 0.84);
-  $final-color: rgba(33, 103, 255, 0.73);
-  @include with-ripple($initial-color, $final-color);
-}
-
 .vo_button_icon {
+  position: relative;
   padding: 10px;
   margin-left: 20px;
   border-radius: 100px;
@@ -63,6 +67,21 @@ button{
   &_color_pink{
     color: $color-pink;
   }
+  &_color_black_hover:hover{
+    color:$color_black;
+  }
+  &:hover{
+    background-color:rgba(0, 0, 0, 0.04) ;
+  }
+}
+.vo_ripple_gray .rippleJS .ripple {
+  background: $color-gray;
+}
+.vo_ripple_pink .rippleJS .ripple {
+  background: $color-light_pink;
+}
+.vo_ripple_orange .rippleJS .ripple{
+  background: $color_orange;
 }
 
 .vo_border_quarter {
@@ -70,8 +89,8 @@ button{
 }
 
 .vo_floating_button {
+  position: relative;
   padding: 20px;
-  margin-left: 21px;
   border-radius: 100px;
   @include shadow_button;
   &_color_white{
@@ -82,22 +101,28 @@ button{
   }
   &_indent{
     position: relative;
-    margin-right: 10px;
+  }
+  &_background_pink{
+    background-color: $color-pink;
+  }
+  &_background_blue{
+    background-color: $color-light_blue;
+  }
+  &_position{
+    margin-left: 50px;
+  }
+  &_background_green{
+    background-color: $color_green;
   }
 }
-.vo_ripple_pink{
-  background: $color-pink;
-  $initial-color: rgba(244, 14, 192, 0.71);
-  $final-color: rgba(244, 143, 211, 0.6);
-  @include with-ripple($initial-color, $final-color);
 
-}
 
 .vo_class_indent {
   margin: 20px 35px 25px 70px;
 }
 
 .vo_mini_button {
+  position: relative;
   padding: 10px;
   margin-left: 30px;
   border-radius: 100px;
@@ -108,20 +133,15 @@ button{
   &_color_gray{
     color: $color-gray;
   }
+  &_background_green{
+    background-color: $color_green;
+  }
+  &_background_purple{
+    background-color: $color_purple;
+  }
 }
 
-.vo_ripple_green {
-  background: $color-green;
-  $initial-color: rgba(83, 244, 12, 0.92);
-  $final-color: rgba(103, 244, 96, 0.6);
-  @include with-ripple($initial-color, $final-color);
-}
-.vo_ripple_purple {
-  background: $color-purple;
-  $initial-color: rgba(102, 15, 244, 0.92);
-  $final-color: rgba(111, 90, 244, 0.6);
-  @include with-ripple($initial-color, $final-color);
-}
+
 .vo_position_footer {
   display: flex;
   flex: 0 0 50%;
@@ -139,50 +159,52 @@ button{
    margin-bottom: 15px;
  }
 
-.vo_ripple_orange {
-  background: $color-orange;
-  $initial-color: rgba(244, 132, 45, 0.92);
-  $final-color: rgba(244, 167, 26, 0.84);
-  @include with-ripple($initial-color, $final-color);
-}
 
 //TOOLTIP
-
+$tooltip-width: 120px;
 .tooltip{
   visibility: hidden;
   opacity: 0;
 
+  width: $tooltip-width;
+  text-align: center;
+  font-family: $font-family;
+  font-size: 10px;
+  color: $color-white;
+  padding: 10px 15px;
+  background: $color-gray;
+  position: absolute;
+  transition: opacity 0.3s;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  &_left{
+    top:25%;
+    right: 110%;
+  }
+  &_top{
+    bottom: 110%;
+    left: 50%;
+    margin-left: - $tooltip-width / 2;
+  }
+  &_bottom{
+    top: 110%;
+    left: 50%;
+    margin-left: - $tooltip-width / 2;
+  }
+  &_right {
+    top: 25%;
+    left: 110%;
+  }
 }
 .tooltip_wrapper{
-  flex: 25%;
- display: flex;
-  align-items: center;
-  margin: 50px;
+  display: inline-block;
+  position: relative;
+  margin-right: 100px;
   &:hover{
     .tooltip {
-      font-family: $font-family;
-      font-size: 10px;
       visibility: visible;
       opacity: 1;
-      align-items: center;
-      color: $color-white;
-      padding: 10px 15px;
-      background: $color-gray;
-      &_left{
-        position: absolute;
-        left: 0;
-
-      }
-      &_top{
-        position: absolute;
-        top:0;
-        right: 40%;
-      }
-      &_bottom{
-        position: absolute;
-        bottom: 0;
-        left: 30%;
-      }
     }
   }
 
@@ -190,8 +212,6 @@ button{
 .vo_button_tooltip{
   display: flex;
 }
-
-
 
 
 

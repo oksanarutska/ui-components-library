@@ -4,56 +4,56 @@ h1.vo_b_title Buttons
     .class_button
         span.vo_b_chapter Flat buttons
         div
-        +button({label: 'BUTTON', class: 'vo_simple_button vo_ripple_gray'})
-        +button({label: 'COLORED', class: 'vo_simple_button vo_ripple_gray vo_simple_button_color_blue'})
-        +button({label: 'DISABLED', class: 'vo_simple_button vo_ripple_gray vo_simple_button_color_gray'})
+        +button({label: 'BUTTON', isRipple: true, class: 'vo_simple_button'})
+        +button({label: 'COLORED',isRipple: true, class: 'vo_simple_button vo_simple_button_color_blue vo_ripple_gray'})
+        +button({label: 'DISABLED',isRipple: true, class: 'vo_simple_button vo_simple_button_color_gray'})
     .class_button
         span.vo_b_chapter Raised buttons
         div
-        +button({label: 'BUTTON', class: 'vo_simple_button vo_ripple_gray vo_button_border'})
+        +button({label: 'BUTTON',isRipple: true, class: 'vo_simple_button vo_button_border'})
         +button({
-            label: 'COLORED',
-            class: 'vo_simple_button vo_ripple_blue vo_simple_button_color_white vo_button_border'
+            label: 'COLORED', isRipple: true,
+            class: 'vo_simple_button vo_simple_button_color_white vo_button_border vo_simple_button_background_blue vo_ripple_blue '
         })
         +button({
-            label: 'DISABLED',
-            class: 'vo_simple_button vo_ripple_gray vo_simple_button_color_gray vo_button_border'
+            label: 'DISABLED',isRipple: true,
+            class: 'vo_simple_button vo_simple_button_color_gray vo_button_border'
         })
 
     h1.vo_b_title Icon Button
     .class_button
         span.vo_b_chapter icon buttons
-        +button({label: 'dehaze', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'arrow_back', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'arrow_forward', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'check', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'close', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'fullscreen', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'fullscreen_exit', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'more_vert', class: 'material-icons vo_button_icon vo_ripple_gray'})
-        +button({label: 'refresh', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'dehaze',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'arrow_back',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'arrow_forward',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'check',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'close',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'fullscreen',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'fullscreen_exit',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'more_vert',isRipple: true, class: 'material-icons vo_button_icon '})
+        +button({label: 'refresh',isRipple: true, class: 'material-icons vo_button_icon '})
     .class_button
         span.vo_b_chapter styled
-        +button({label: 'favorite', class: 'material-icons vo_button_icon vo_button_icon_color_black vo_ripple_gray'})
-        +button({label: 'favorite', class: 'material-icons vo_button_icon vo_button_icon_color_pink vo_ripple_gray'})
-        +button({label: 'favorite', class: 'material-icons vo_button_icon vo_ripple_gray'})
+        +button({label: 'favorite',isRipple: true, class: 'material-icons vo_button_icon vo_button_icon_color_black vo_ripple_gray'})
+        +button({label: 'favorite',isRipple: true, class: 'material-icons vo_button_icon vo_button_icon_color_pink vo_ripple_gray'})
+        +button({label: 'favorite',isRipple: true, class: 'material-icons vo_button_icon vo_ripple_gray'})
     .class_button
         span.vo_b_chapter styled
         +button({
-            label: 'directions_walk',
-            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray'
+            label: 'directions_walk',isRipple: true,
+            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray vo_button_icon_color_black_hover'
         })
         +button({
-            label: 'directions_bike',
-            class: 'material-icons vo_button_icon vo_button_icon_color_black vo_border_quarter vo_ripple_gray'
+            label: 'directions_bike',isRipple: true,
+            class: 'material-icons vo_button_icon vo_button_icon vo_border_quarter vo_ripple_gray vo_button_icon_color_black_hover'
         })
         +button({
-            label: 'directions_bus',
-            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray'
+            label: 'directions_bus',isRipple: true,
+            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray vo_button_icon_color_black_hover'
         })
         +button({
-            label: 'directions_car',
-            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray'
+            label: 'directions_car',isRipple: true,
+            class: 'material-icons vo_button_icon vo_border_quarter vo_ripple_gray vo_button_icon_color_black_hover'
         })
 .vo_footer_button
     .vo_position_footer
@@ -62,35 +62,50 @@ h1.vo_b_title Buttons
             span.vo_b_chapter Regular
             .vo_class_indent
                 +button({
-                    label: 'arrow_forward',
-                    class: 'material-icons vo_floating_button vo_ripple_pink vo_floating_button_color_white'
+                    label: 'arrow_forward',isRipple: true,
+                    class: 'material-icons vo_floating_button vo_ripple_pink vo_floating_button_color_white vo_floating_button_background_pink vo_floating_button_position'
                 })
-                +button({label: 'create', class: 'material-icons vo_floating_button vo_floating_button_color_white vo_ripple_blue'})
-                +button({label: 'add', class: 'material-icons vo_floating_button vo_floating_button_color_gray vo_ripple_gray '})
+                +button({
+                    label: 'create',isRipple: true,
+                    class: 'material-icons vo_floating_button vo_floating_button_color_white vo_ripple_blue vo_floating_button_background_blue vo_floating_button_position'
+                })
+                +button({
+                    label: 'add',isRipple: true,
+                    class: 'material-icons vo_floating_button vo_floating_button_color_gray vo_ripple_gray vo_floating_button_position'
+                })
 
             span.vo_b_chapter  Mini
             .vo_class_indent
-                +button({label: 'check', class: 'material-icons vo_mini_button vo_ripple_green vo_mini_button_color_white'})
-                +button({label: 'reply', class: 'material-icons vo_mini_button vo_ripple_purple vo_mini_button_color_white'})
-                +button({label: 'close', class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray'})
+                +button({
+                    label: 'check',isRipple: true,
+                    class: 'material-icons vo_mini_button vo_ripple_green vo_mini_button_color_white vo_mini_button_background_green'
+                })
+                +button({
+                    label: 'reply',isRipple: true,
+                    class: 'material-icons vo_mini_button vo_ripple_purple vo_mini_button_color_white vo_mini_button_background_purple'
+                })
+                +button({
+                    label: 'close',isRipple: true,
+                    class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray'
+                })
     .vo_position_footer
         h1.vo_b_title FAB Speed Dial
             .class_button
                 .vo_footer_right
                     +button({
-                        label: 'close',
+                        label: 'close', isRipple: true,
                         class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
                     })
                     +button({
-                        label: 'favorite',
+                        label: 'favorite',isRipple: true,
                         class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
                     })
                     +button({
-                        label: 'create',
+                        label: 'create',isRipple: true,
                         class: 'material-icons  vo_mini_button vo_mini_button_color_gray vo_ripple_gray vo_footer_right_button'
                     })
                     +button({
-                        label: 'dehaze',
+                        label: 'dehaze',isRipple: true,
                         class: 'material-icons vo_floating_button vo_ripple_orange vo_mini_button_color_white'
                     })
 

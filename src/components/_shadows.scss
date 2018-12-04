@@ -1,0 +1,36 @@
+@import "../scss/mixin";
+
+.vo_box_shadows{
+  width: 150px;
+  height: 150px;
+  &_1 {
+    @include box-shadows(1)
+  }
+  &_2 {
+    @include box-shadows(2)
+  }
+  &_3 {
+    @include box-shadows(3)
+  }
+  &_4 {
+    @include box-shadows(4)
+  }
+  &_5 {
+    @include box-shadows(5)
+  }
+}
+
+.vo_shadow_text {
+  font-family: $font-family;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 10px;
+  color: $color_black;
+}
+.vo_class_shadows{
+  display: flex;
+}
+
+
+
+

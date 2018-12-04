@@ -1,0 +1,64 @@
+@import "../scss/variables";
+@import "../scss/mixin";
+
+.vo_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+  &_contant{
+    font-size: 20px;
+    color: $color-black;
+  }
+
+}
+
+.vo_container{
+  .vo_checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+}
+
+.vo_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: $color-white;
+  border:2px solid $color-gray;
+}
+
+.vo_container .vo_checkbox:checked ~ .vo_checkmark {
+  background-color: $color_dark_green;
+}
+
+
+.vo_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.vo_container .vo_checkbox:checked ~ .vo_checkmark:after {
+  display: block;
+}
+
+.vo_container .vo_checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+

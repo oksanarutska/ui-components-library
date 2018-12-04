@@ -1,0 +1,101 @@
+@import "../scss/variables";
+
+.vo_loader {
+  border-radius: 100%;
+  margin-right: 70px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  &_little_1 {
+    border: 6px solid $color_loader_blue;
+    border-left-color: $color_white;
+    width: 50px;
+    height: 50px;
+  }
+  &_little_2 {
+    border: 8px solid $color_loader_blue;
+    border-left-color: $color_white;
+    width: 60px;
+    height: 60px;
+  }
+  &_little_3 {
+    border: 10px solid $color_loader_blue;
+    border-left-color: $color_white;
+    width: 70px;
+    height: 70px;
+  }
+  &_little_4 {
+    border: 12px solid $color_loader_blue;
+    border-left-color: $color_white;
+    width: 80px;
+    height: 80px;
+  }
+  &_little_5 {
+    border: 14px solid $color_loader_blue;
+    border-left-color: $color_white;
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.vo_class_loader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+//Progress Linear
+
+.vo_loader_line {
+  margin-bottom: 65px;
+  height: 4px;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ddd;
+  &:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: #2980b9;
+    animation: loading_small 2s linear infinite;
+
+  }
+}
+
+@keyframes loading_small {
+  from {
+    left: -200px;
+    width: 30%;
+  }
+  50% {
+    width: 70%;
+  }
+  80% {
+    left: 80%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
