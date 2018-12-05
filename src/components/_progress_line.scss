@@ -70,17 +70,70 @@
   position: relative;
   overflow: hidden;
   background-color: #ddd;
-  &:before {
+  &_small:before {
     display: block;
     position: absolute;
     content: "";
     left: -200px;
     width: 200px;
     height: 4px;
-    background-color: #2980b9;
-    animation: loading_small 2s linear infinite;
-
+    background-color: $color_green;
+    animation: loading_small 3s linear infinite;
   }
+  &_medium:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: $color_green;
+    animation: loading_medium 3s linear infinite;
+  }
+  &_medium_light:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: $color_green;
+    animation: loading_medium 3s linear infinite;
+  }
+  &_big:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: $color_green;
+    animation: loading_big 3s linear infinite;
+  }
+  &_medium_pink:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: $color_pink;
+    animation: loading_medium 3s linear infinite;
+  }
+
+  &_medium_light_pink:after {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: pink;
+    animation: loading_big 3s linear infinite;
+  }
+
+
+
 }
 
 @keyframes loading_small {
@@ -89,7 +142,7 @@
     width: 30%;
   }
   50% {
-    width: 70%;
+    width: 60%;
   }
   80% {
     left: 80%;
@@ -98,4 +151,37 @@
     left: 100%;
   }
 }
+
+@keyframes loading_medium{
+  from {
+    left: -200px;
+    width: 30%;
+  }
+  50% {
+    width: 100%;
+  }
+  80% {
+    left: 80%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes loading_big{
+  from {
+    left: -200px;
+    width: 30%;
+  }
+  50% {
+    width: 200%;
+  }
+  80% {
+    left: 80%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
 

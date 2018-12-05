@@ -28,8 +28,8 @@
 
 .vo_checkmark {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -25px;
+  left: -41px;
   height: 25px;
   width: 25px;
   background: $color-white;
@@ -61,4 +61,18 @@
   transform: rotate(45deg);
 }
 
-
+.div_check{
+  background: $color_white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: -10px;
+  left: -16px;
+  position: absolute;
+  &:hover{
+    background: $color_light_green;
+  }
+}
+.div_check_in{
+  position: relative;
+}

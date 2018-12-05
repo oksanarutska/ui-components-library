@@ -1,0 +1,14 @@
+.container {
+  margin-top: 80px;
+
+  .rangeSlider {
+    margin-bottom: 32px;
+  }
+
+  [data-output] {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+  }
+}

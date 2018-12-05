@@ -2,32 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3343459-b63f-440b-b2bd-580047d8b3ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/_input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/_menu_items.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/_progress_line.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/_radio_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/_switch_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exemples/input.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exemples/menu_items.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exemples/progress_line.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exemples/radio_button.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exemples/shadows.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exemples/switch_button.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/_slider_range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/inset_dividers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exemples/inset_dividers.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exemples/slider_range.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/exemples/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/button.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/exemples/button_tooltip.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/button_tooltip.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/exemples/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/checkbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exemples/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exemples/progress_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/progress_line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exemples/switch_button.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/switch_button.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exemples/_mixin_button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/_mixin_button.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exemples/button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/button.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exemples/button_tooltip.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/button_tooltip.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/_checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/_progress_line.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_progress_line.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exemples/checkbox.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/checkbox.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exemples/input.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/input.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exemples/progress_line.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/progress_line.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exemples/switch_button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/switch_button.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
@@ -51,99 +46,90 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="2" />
-          <entry key="js" value="1" />
-          <entry key="pug" value="48" />
+          <entry key="js" value="3" />
+          <entry key="pug" value="55" />
           <entry key="sass" value="2" />
-          <entry key="scss" value="46" />
+          <entry key="scss" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="2" />
-          <entry key="Jade" value="48" />
-          <entry key="JavaScript" value="1" />
-          <entry key="SCSS" value="46" />
+          <entry key="Jade" value="55" />
+          <entry key="JavaScript" value="3" />
+          <entry key="SCSS" value="53" />
           <entry key="Sass" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="4" />
-          <entry key="js" value="3" />
-          <entry key="pug" value="2206" />
+          <entry key="js" value="160" />
+          <entry key="pug" value="2965" />
           <entry key="sass" value="1" />
-          <entry key="scss" value="4050" />
+          <entry key="scss" value="4977" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="Jade" value="2206" />
-          <entry key="JavaScript" value="3" />
-          <entry key="SCSS" value="4050" />
+          <entry key="Jade" value="2965" />
+          <entry key="JavaScript" value="160" />
+          <entry key="SCSS" value="4977" />
           <entry key="Sass" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.47368422">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/exemples/button.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/exemples/menu_items.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
-                  <caret line="53" selection-start-line="53" selection-end-line="53" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/exemples/progress_line.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/exemples/checkbox.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="119">
+                  <caret line="25" column="90" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="90" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/exemples/input.pug">
+            <entry file="file://$PROJECT_DIR$/src/exemples/inset_dividers.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="26" />
+                <state relative-caret-position="211">
+                  <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -151,8 +137,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/exemples/radio_button.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/exemples/switch_button.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -164,26 +159,35 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/_progress_line.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-527">
-                  <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/_input.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+                <state>
+                  <caret lean-forward="true" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/_menu_items.scss">
+            <entry file="file://$PROJECT_DIR$/src/components/_input.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="341">
-                  <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+                <state relative-caret-position="1021">
+                  <caret line="106" column="21" lean-forward="true" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/inset_dividers.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -191,7 +195,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/_mixin.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
+                <state relative-caret-position="170">
                   <caret line="28" selection-start-line="28" selection-end-line="28" />
                 </state>
               </provider>
@@ -200,8 +204,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/_button.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="16" />
+                <state relative-caret-position="17">
+                  <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -209,8 +213,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/_checkbox.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="37" selection-start-line="37" selection-end-line="37" />
+                <state relative-caret-position="253">
+                  <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -218,6 +222,15 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../mate-academy-lessons/exemple_sass_pug_bem/src/_variables.scss">
               <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/_slider_range.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -244,7 +257,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/exemples/button/index_button/_index.pug" />
         <option value="$PROJECT_DIR$/src/exemples/button/button.pug" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/exemples/button/button_tooltip.pug" />
         <option value="$PROJECT_DIR$/src/exemples/button/checkbox.pug" />
         <option value="$PROJECT_DIR$/src/components/_checkbox.scss.css" />
@@ -253,29 +265,35 @@
         <option value="$PROJECT_DIR$/src/exemples/check.pug" />
         <option value="$PROJECT_DIR$/src/components/check.scss" />
         <option value="$PROJECT_DIR$/src/components/check.sass" />
-        <option value="$PROJECT_DIR$/src/exemples/radio_button.pug" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/exemples/_mixin_button.pug" />
         <option value="$PROJECT_DIR$/src/components/_radio_button.scss" />
-        <option value="$PROJECT_DIR$/src/exemples/switch_button.pug" />
         <option value="$PROJECT_DIR$/src/components/_switch_button.scss" />
         <option value="$PROJECT_DIR$/src/exemples/button.pug" />
         <option value="$PROJECT_DIR$/src/exemples/button_tooltip.pug" />
         <option value="$PROJECT_DIR$/src/components/_button.scss" />
-        <option value="$PROJECT_DIR$/src/components/_checkbox.scss" />
         <option value="$PROJECT_DIR$/src/exemples/menu_items.pug" />
         <option value="$PROJECT_DIR$/src/components/_menu_items.scss" />
         <option value="$PROJECT_DIR$/src/scss/_mixin.scss" />
         <option value="$PROJECT_DIR$/src/exemples/shadows.pug" />
         <option value="$PROJECT_DIR$/src/components/_shadows.scss" />
-        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/exemples/progress_line.pug" />
-        <option value="$PROJECT_DIR$/src/components/_progress_line.scss" />
-        <option value="$PROJECT_DIR$/src/index.pug" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/exemples/checkbox.pug" />
-        <option value="$PROJECT_DIR$/src/exemples/input.pug" />
+        <option value="$PROJECT_DIR$/src/components/_checkbox.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/radio_button.pug" />
+        <option value="$PROJECT_DIR$/src/exemples/switch_button.pug" />
         <option value="$PROJECT_DIR$/src/components/_input.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/input.pug" />
+        <option value="$PROJECT_DIR$/src/components/_progress_line.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/progress_line.pug" />
+        <option value="$PROJECT_DIR$/src/exemples/slider_range.pug" />
+        <option value="$PROJECT_DIR$/src/components/_slider_range.scss" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/index.pug" />
+        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/inset_dividers.pug" />
+        <option value="$PROJECT_DIR$/src/components/inset_dividers.scss" />
       </list>
     </option>
   </component>
@@ -331,13 +349,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ui-components-library" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui-components-library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-components-library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-components-library" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ui-components-library" type="b2602c69:ProjectViewProjectNode" />
@@ -372,6 +394,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,18 +446,20 @@
       <workItem from="1543692225389" duration="9718000" />
       <workItem from="1543850229855" duration="231000" />
       <workItem from="1543864217618" duration="697000" />
-      <workItem from="1543872630298" duration="31559000" />
+      <workItem from="1543872630298" duration="36556000" />
+      <workItem from="1544001211900" duration="1626000" />
+      <workItem from="1544010317857" duration="12602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110290000" />
+    <option name="totallyTimeSpent" value="129515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112351194" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info id="Gulp" order="1" side_tool="true" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -448,7 +473,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.452459" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3672131" />
       <window_info anchor="bottom" id="Structure" order="11" weight="0.24754098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -484,13 +509,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/exemples/button/_index.pug" />
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/_checkbox.scss.css" />
     <entry file="file://$PROJECT_DIR$/src/components/checkbox.sass" />
     <entry file="file://$PROJECT_DIR$/src/exemples/check.pug" />
@@ -517,20 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/switch_button.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/button_tooltip.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -561,48 +565,10 @@
     <entry file="file://$PROJECT_DIR$/../mate-academy-lessons/exemple_sass_pug_bem/src/all.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mate-academy-lessons/exemple_sass_pug_bem/src/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/_mixin_button.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exemples/shadows.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -613,80 +579,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/radio_button.pug">
+    <entry file="file://$PROJECT_DIR$/src/exemples/button_tooltip.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/progress_line.pug">
+    <entry file="file://$PROJECT_DIR$/src/exemples/_mixin_button.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_button.scss">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/button.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_progress_line.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_checkbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/checkbox.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/menu_items.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="408">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/_menu_items.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
+        <state relative-caret-position="969">
           <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/input.pug">
+    <entry file="file://$PROJECT_DIR$/../mate-academy-lessons/exemple_sass_pug_bem/src/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/radio_button.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/switch_button.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_checkbox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/_input.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="1021">
+          <caret line="106" column="21" lean-forward="true" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_slider_range.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/input.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/progress_line.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="105" selection-start-line="16" selection-start-column="105" selection-end-line="16" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/menu_items.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/slider_range.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/checkbox.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/button.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="90" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_progress_line.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/inset_dividers.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/inset_dividers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>

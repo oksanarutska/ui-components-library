@@ -12,6 +12,7 @@ const htmlBlob = 'src/**/*.pug';
 const imagesBlob = 'src/images/**';
 const fontsBlob = 'src/fonts/**';
 const stylesBlob = './src/scss/main.scss';
+const jsFiles = './src/**/*.js';
 
 gulp.task('d', function () {
     return runSequence('build', 'serve');
@@ -20,7 +21,7 @@ gulp.task('d', function () {
 gulp.task('build', function () {
     return runSequence(
         'cleanDist',
-        ['processStyles', 'processHtml', 'processImages', 'processFonts']
+        ['processStyles', 'processHtml', 'processImages', 'processFonts', 'copyJsFiles']
     );
 });
 
@@ -43,6 +44,10 @@ gulp.task('serve', function () {
         return runSequence('processFonts', 'reloadBrowser');
     });
 
+    gulp.watch(jsFiles, function () {
+        return runSequence('copyJsFiles', 'reloadBrowser');
+    });
+
     gulp.watch('src/**/*.scss', function () {
         return runSequence('processStyles', 'reloadBrowser');
     });
@@ -51,6 +56,11 @@ gulp.task('serve', function () {
 gulp.task('cleanDist', function () {
     return gulp.src(distDirectory, {read: false, allowEmpty: true})
         .pipe(clean());
+});
+
+gulp.task('copyJsFiles', function () {
+    return gulp.src(jsFiles)
+        .pipe(gulp.dest(distDirectory));
 });
 
 gulp.task('processHtml', function () {
