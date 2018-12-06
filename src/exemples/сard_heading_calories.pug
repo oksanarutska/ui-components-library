@@ -1,0 +1,49 @@
+include _mixin_button
+
+.vo_data_tables
+    .vo_wrapper_calories
+        .vo_wrapper_calories_component.vo_wrapper_calories_component_border
+            h3.vo_calories_header Card Heading
+            div
+                +button({label: 'filter_list', isRipple: true, class: 'material-icons vo_icon_calories'})
+                +button({label: 'more_vert', isRipple: true, class: 'material-icons vo_icon_calories'})
+
+        .vo_wrapper_calories_component.vo_wrapper_calories_component_hover_blue.vo_wrapper_calories_component_border
+            p.vo_calories_content.vo_calories_content_blue 1 item selected
+            div
+                +button({label: 'delete', isRipple: true, class: 'material-icons vo_icon_calories'})
+                +button({label: 'more_vert', isRipple: true, class: 'material-icons vo_icon_calories'})
+
+        .vo_wrapper_calories_component.vo_wrapper_calories_component_hover_gray
+            label.vo_container.vo_calories_content Column Heading
+                input(type="checkbox" ).vo_checkbox.vo_checkbox_blue
+                span.vo_checkmark.vo_checkbox_calories
+            div.vo_direction_calories
+                p.vo_calories_content.vo_calories_content_gray Calories
+                p.vo_calories_content.vo_calories_content_gray Fat (g)
+                p.vo_calories_content.vo_calories_content_gray Carbs (g)
+                p.vo_calories_content.vo_calories_content_gray Protein (g)
+
+
+    each val in [1, 2, 3, 4, 5,6,7,8,9,10]
+        .vo_wrapper_calories_component.vo_wrapper_calories_component_hover_gray
+            label.vo_container.vo_calories_content.vo_calories_content_black Table content
+                input(type="checkbox" ).vo_checkbox.vo_checkbox_blue
+                span.vo_checkmark.vo_checkbox_calories
+            div.vo_direction_calories
+                p.vo_calories_content.vo_calories_content_black 159
+                p.vo_calories_content.vo_calories_content_black 6.0
+                p.vo_calories_content.vo_calories_content_black 24
+                p.vo_calories_content.vo_calories_content_black 4.0
+
+    .vo_wrapper_calories_component.vo_wrapper_footer
+        p.vo_calories_content Rows per page:
+        p.vo_calories_content 10
+        +button({label: 'arrow_drop_down', isRipple: true, class: 'material-icons vo_icon_calories'})
+        p.vo_calories_content 1-10 of 100
+        +button({label: 'chevron_left', isRipple: true, class: 'material-icons vo_icon_calories'})
+        +button({label: 'chevron_right', isRipple: true, class: 'material-icons vo_icon_calories'})
+
+
+
+

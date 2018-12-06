@@ -36,6 +36,16 @@
   pointer-events: none;
 }
 
+.vo_input_error_message {
+  visibility: hidden;
+  color: red;
+  font-size: 0.75rem;
+  text-align: left;
+  margin: 8px 0 0;
+  min-height: 1em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1em;
+}
 .vo_wrapper_input_form {
   margin: 0;
   border: 0;
@@ -45,6 +55,17 @@
   min-width: 0;
   flex-direction: column;
   vertical-align: top;
+
+  &_error {
+    & .vo_input_error_message {
+      visibility: visible;
+    }
+
+    & .vo_wrapper_input:after,
+    & .vo_wrapper_input:before {
+      border-bottom-color: red;
+    }
+  }
 
   &_active {
     .vo_wrapper_input:after {

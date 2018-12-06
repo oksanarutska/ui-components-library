@@ -4,8 +4,8 @@
 .vo_container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 45px;
+
   cursor: pointer;
   font-size: 22px;
   user-select: none;
@@ -28,17 +28,31 @@
 
 .vo_checkmark {
   position: absolute;
-  top: -25px;
-  left: -41px;
+  top: 0;
+  left: 0;
   height: 25px;
   width: 25px;
   background: $color-white;
   border:2px solid $color-gray;
+
+  &_ripple {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    color: $color_dark_green;
+    left: -11px;
+  }
 }
 
 .vo_container .vo_checkbox:checked ~ .vo_checkmark {
   background-color: $color_dark_green;
 }
+.vo_container .vo_checkbox.vo_checkbox_blue:checked ~ .vo_checkmark {
+  background-color:$color_blue_light_2;
+}
+
 
 
 .vo_checkmark:after {
@@ -54,8 +68,8 @@
 .vo_container .vo_checkmark:after {
   left: 9px;
   top: 5px;
-  width: 5px;
-  height: 10px;
+  width: 4px;
+  height: 8px;
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
@@ -76,3 +90,4 @@
 .div_check_in{
   position: relative;
 }
+
