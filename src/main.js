@@ -18,11 +18,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-let tooltip;
-const slider = document.querySelector('[type="range"]');
-const output = document.querySelector('[data-output]');
-rangeSlider.create(slider, {onSlide: (val) => {
-        console.log(val);
-        output.textContent = val;
-    }});
-

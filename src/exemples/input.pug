@@ -4,34 +4,41 @@ h1.vo_b_title Input (Forms)
         .vo_input_display_line
             .vo_wrapper_input_form
                 .vo_wrapper_input
-                    input(type='text' placeholder='Input name').vo_input_text
+                    input(type='text' placeholder='Input name').vo_input_text.vo_name_placeholder
             .vo_wrapper_input_form
-                 .vo_wrapper_input
-                    input(type='text' placeholder='Input name').vo_input_text
+                .vo_wrapper_input
+                    input(type='text' placeholder='Input name').vo_input_text.vo_name_placeholder
 
 
         .vo_wrapper_input_form
-            label.vo_label_input Label
             .vo_wrapper_input.vo_wrapper_input_large_form
-                input(type='text' placeholder='').vo_input_text
-            p.vo_input_hint here is a hint
-
-
-
+                input(type='text' placeholder='Active text input').vo_input_text
 
 
 
         .vo_wrapper_input_form.vo_wrapper_input_form_error
-            label.vo_label_input Label
             .vo_wrapper_input
-                input(type='text' placeholder='').vo_input_text
+                input(type='text' placeholder='Invalid text input').vo_input_text
             p.vo_input_error_message This input requires a value!
 
-        .vo_wrapper_input_form(style="margin-left: 10px")
-            label.vo_label_input Label
+        .vo_wrapper_input_form
             .vo_wrapper_input
-                textarea(type='text' placeholder='').vo_input_text
-            p.vo_input_hint here is a hint
+                input(type='text' placeholder='I’m disabled' disabled).vo_input_text
+
+
+
+        .vo_wrapper_input_form
+            label.vo_label_input Floating label
+            .vo_wrapper_input
+                input(type='text' placeholder='').vo_input_text
+
+
+        .vo_wrapper_input_form
+            label.vo_label_input Text area
+            .vo_wrapper_input.vo_wrapper_input_large_form
+                input(type='textarea' placeholder='').vo_input_text
+
+
 
 
 

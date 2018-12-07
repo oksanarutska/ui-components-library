@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3343459-b63f-440b-b2bd-580047d8b3ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/_сard_heading_calories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exemples/сard_heading_calories.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/exemples/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/checkbox.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/exemples/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exemples/radio_button.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/radio_button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/exemples/slider_range.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/exemples/slider_range.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/_checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/_radio_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_radio_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/_slider_range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_slider_range.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exemples/checkbox.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/checkbox.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exemples/input.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/input.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exemples/radio_button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/radio_button.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exemples/slider_range.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemples/slider_range.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
@@ -49,19 +53,19 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="2" />
-          <entry key="js" value="3" />
-          <entry key="pug" value="60" />
+          <entry key="js" value="4" />
+          <entry key="pug" value="62" />
           <entry key="sass" value="2" />
-          <entry key="scss" value="56" />
+          <entry key="scss" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="2" />
-          <entry key="Jade" value="60" />
-          <entry key="JavaScript" value="3" />
-          <entry key="SCSS" value="56" />
+          <entry key="Jade" value="62" />
+          <entry key="JavaScript" value="4" />
+          <entry key="SCSS" value="59" />
           <entry key="Sass" value="2" />
         </counts>
       </usages-collector>
@@ -69,17 +73,17 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="js" value="160" />
-          <entry key="pug" value="3414" />
+          <entry key="pug" value="3721" />
           <entry key="sass" value="1" />
-          <entry key="scss" value="5772" />
+          <entry key="scss" value="6045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="Jade" value="3414" />
+          <entry key="Jade" value="3721" />
           <entry key="JavaScript" value="160" />
-          <entry key="SCSS" value="5772" />
+          <entry key="SCSS" value="6045" />
           <entry key="Sass" value="1" />
         </counts>
       </usages-collector>
@@ -90,18 +94,9 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/exemples/button.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1479">
+                <state relative-caret-position="381">
                   <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
                 </state>
               </provider>
@@ -116,7 +111,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/exemples/сard_heading_calories.pug">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="256">
@@ -128,8 +123,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="19" />
+                <state relative-caret-position="272">
+                  <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -137,8 +132,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -146,8 +141,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/exemples/checkbox.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+                <state relative-caret-position="102">
+                  <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -155,8 +150,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/exemples/input.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+                <state relative-caret-position="629">
+                  <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/exemples/slider_range.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
@@ -164,8 +168,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/exemples/radio_button.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+                <state relative-caret-position="290">
+                  <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -184,10 +188,28 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/index.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="253">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/_сard_heading_calories.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="77">
                   <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/_radio_button.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="250">
+                  <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -213,8 +235,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/_input.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="41" selection-start-line="41" selection-end-line="41" />
+                <state>
+                  <caret selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -223,7 +245,7 @@
             <entry file="file://$PROJECT_DIR$/src/components/_checkbox.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
-                  <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+                  <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -231,8 +253,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/_slider_range.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                <state relative-caret-position="332">
+                  <caret line="131" column="15" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="250">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -271,7 +302,6 @@
         <option value="$PROJECT_DIR$/src/components/check.sass" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/exemples/_mixin_button.pug" />
-        <option value="$PROJECT_DIR$/src/components/_radio_button.scss" />
         <option value="$PROJECT_DIR$/src/components/_switch_button.scss" />
         <option value="$PROJECT_DIR$/src/exemples/button.pug" />
         <option value="$PROJECT_DIR$/src/exemples/button_tooltip.pug" />
@@ -282,24 +312,26 @@
         <option value="$PROJECT_DIR$/src/exemples/shadows.pug" />
         <option value="$PROJECT_DIR$/src/components/_shadows.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/exemples/radio_button.pug" />
         <option value="$PROJECT_DIR$/src/exemples/switch_button.pug" />
         <option value="$PROJECT_DIR$/src/components/_progress_line.scss" />
         <option value="$PROJECT_DIR$/src/exemples/progress_line.pug" />
-        <option value="$PROJECT_DIR$/src/exemples/slider_range.pug" />
-        <option value="$PROJECT_DIR$/src/components/_slider_range.scss" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/exemples/inset_dividers.pug" />
         <option value="$PROJECT_DIR$/src/components/inset_dividers.scss" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/index.pug" />
-        <option value="$PROJECT_DIR$/src/exemples/input.pug" />
-        <option value="$PROJECT_DIR$/src/components/_input.scss" />
-        <option value="$PROJECT_DIR$/src/exemples/checkbox.pug" />
-        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/src/components/_checkbox.scss" />
         <option value="$PROJECT_DIR$/src/exemples/сard_heading_calories.pug" />
         <option value="$PROJECT_DIR$/src/components/_сard_heading_calories.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/checkbox.pug" />
+        <option value="$PROJECT_DIR$/src/components/_radio_button.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/radio_button.pug" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/components/_input.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/input.pug" />
+        <option value="$PROJECT_DIR$/src/components/_slider_range.scss" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/exemples/slider_range.pug" />
+        <option value="$PROJECT_DIR$/src/components/_range.scss" />
       </list>
     </option>
   </component>
@@ -455,18 +487,18 @@
       <workItem from="1543872630298" duration="36556000" />
       <workItem from="1544001211900" duration="1626000" />
       <workItem from="1544010317857" duration="26156000" />
-      <workItem from="1544092086667" duration="3890000" />
+      <workItem from="1544092086667" duration="11823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146959000" />
+    <option name="totallyTimeSpent" value="154892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info id="Gulp" order="1" side_tool="true" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -480,7 +512,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20983607" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32131147" />
       <window_info anchor="bottom" id="Structure" order="11" weight="0.24754098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -542,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_radio_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
@@ -631,24 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/slider_range.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/_progress_line.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -659,20 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/button.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exemples/inset_dividers.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -680,38 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/input.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/radio_button.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exemples/switch_button.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exemples/checkbox.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -729,31 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_input.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/_сard_heading_calories.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_slider_range.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_checkbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="77">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -764,10 +712,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_сard_heading_calories.scss">
+    <entry file="file://$PROJECT_DIR$/src/exemples/button.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="381">
+          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_checkbox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/radio_button.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_radio_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/checkbox.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/input.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_input.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exemples/slider_range.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_range.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#9#181#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_slider_range.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="131" column="15" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
