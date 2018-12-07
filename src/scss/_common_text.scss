@@ -1,0 +1,30 @@
+@import "variables";
+
+* {
+  font-family: $font-family;
+}
+button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+
+}
+
+.vo_b_title {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #5265a2;
+  margin: 50px 0 84px 26px;
+
+}
+.vo_b_chapter{
+  font-size: 16px;
+  color: #333333;
+  margin-left: 40px;
+}
+.vo_button_tooltip{
+
+}
+
+

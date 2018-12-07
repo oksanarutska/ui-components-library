@@ -1,0 +1,98 @@
+@import "../scss/variables";
+@import "../scss/mixin";
+
+.vo_data_tables{
+  width: 850px;
+  height: 920px;
+  @include box-shadows(1);
+  margin: 0 auto;
+}
+
+.vo_calories_header{
+color: $color_light_black;
+  font-size: 20px;
+  margin-left: 30px;
+  letter-spacing: normal;
+  font-family: $font-family;
+
+}
+.vo_wrapper_calories{
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.vo_wrapper_calories_component{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 65px;
+  border: 1px solid $color_very_light_gray;
+  &_hover_blue{
+    &:hover{
+      background-color: $color_very_light_blue;
+      cursor: pointer;
+    }
+
+  }
+
+  &_hover_gray{
+    &:hover{
+      background-color: $color_very_light_gray;
+      cursor: pointer;
+    }
+  }
+  &_border{
+    border: none;
+  }
+}
+.vo_icon_calories{
+  height: 35px;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 25px;
+ font-size: 25px;
+  color: $color-light_gray;
+  &:hover{
+    background-color:rgba(0, 0, 0, 0.04) ;
+    border-radius: 50%;
+    height: 35px;
+  }
+
+
+}
+.vo_calories_content{
+  margin-left: 30px;
+  font-family: $font-family;
+  font-size: 14px;
+  color: $color-light_gray;
+  &_blue{
+    color:$color-blue;
+  }
+  &_gray{
+    color: $color-light_gray;
+    margin-right: 40px;
+  }
+  &_black{
+    font-size: 15px;
+    color:$color_light_black;
+    margin-right: 65px;
+  }
+
+}
+
+.vo_checkbox_calories{
+  top: -5px;
+  left: 4px;
+
+}
+
+.vo_direction_calories{
+  display: flex;
+  flex-direction: row;
+}
+.vo_wrapper_footer{
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}

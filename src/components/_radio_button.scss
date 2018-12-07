@@ -1,0 +1,92 @@
+@import "../scss/variables";
+@import "../scss/mixin";
+.vo_container_radio {
+  display: block;
+  position: relative;
+  padding-left:40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+  font-family: $font-family;
+  color: black;
+  font-size: 20px;
+}
+.vo_checkbox_tittle{
+  margin-top: 50px ;
+  margin-bottom: -20px;
+}
+
+
+.vo_container_radio {
+  .vo_radio_input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+
+.vo_radio_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 2px solid $color-gray ;
+}
+
+.vo_container_radio:hover .vo_radio_input ~ .vo_radio_checkmark {
+     background: white;
+}
+
+
+.vo_container_radio .vo_radio_input:checked ~ .vo_radio_checkmark {
+  border: 2px solid $color-dark_green;
+}
+
+
+.vo_radio_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.vo_container_radio .vo_radio_input:checked ~ .vo_radio_checkmark:after {
+  display: block;
+}
+
+
+.vo_container_radio .vo_radio_checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background:$color_dark_green;
+}
+
+
+.vo_radio_ripple{
+  opacity: 0.5;
+  position: absolute;
+  top:-10px;
+  left: -11px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: $color_dark_green;
+  &:hover{
+    background: $color_light_green;
+  }
+}
+
+
+
+
+
+
+
+
+

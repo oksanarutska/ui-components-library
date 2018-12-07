@@ -1,0 +1,64 @@
+@import "../scss/mixin";
+@import "../scss/variables";
+
+.vo_button_icon_menu {
+  color: $color-light_gray;
+  font-size: 30px;
+  margin-right: 35px;
+
+}
+
+.vo_menu_icon {
+  position: relative;
+
+  align-items: center;
+  display: flex;
+  width: 235px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+
+  &:hover {
+    background: $color_opacity_gray;
+    cursor: pointer;
+  }
+  &_info {
+    width: 335px;
+  }
+}
+
+.vo_icon_menu_text {
+  font-family: $font-family;
+  font-size: 20px;
+  color: $color-light_gray;
+  font-weight:normal;
+
+}
+
+.vo_gray_line {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 2px;
+  background: $color-light_gray;
+}
+
+.vo_icon_info {
+  color: $color-info_gray;
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  &:hover {
+    background: $color-gray;
+    height: 40px;
+    border-radius: 100%;
+  }
+}
+.vo_menu_shadow{
+  padding: 25px 25px 15px 25px;
+  height: 100%;
+  width: 245px;
+  @include shadow_button;
+}
+
+

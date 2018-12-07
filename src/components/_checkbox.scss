@@ -1,0 +1,93 @@
+@import "../scss/variables";
+@import "../scss/mixin";
+
+.vo_container {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+  &_contant{
+    font-size: 20px;
+    color: $color-black;
+  }
+
+}
+
+.vo_container{
+  .vo_checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+}
+
+.vo_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: $color-white;
+  border:2px solid $color-gray;
+
+  &_ripple {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    color: $color_dark_green;
+    left: -11px;
+  }
+}
+
+.vo_container .vo_checkbox:checked ~ .vo_checkmark {
+  background-color: $color_dark_green;
+}
+.vo_container .vo_checkbox.vo_checkbox_blue:checked ~ .vo_checkmark {
+  background-color:$color_blue_light_2;
+}
+
+
+
+.vo_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.vo_container .vo_checkbox:checked ~ .vo_checkmark:after {
+  display: block;
+}
+
+.vo_container .vo_checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.div_check{
+  background: $color_white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: -10px;
+  left: -16px;
+  position: absolute;
+  &:hover{
+    background: $color_light_green;
+  }
+}
+.div_check_in{
+  position: relative;
+}
+

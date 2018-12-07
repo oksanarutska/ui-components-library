@@ -1,0 +1,218 @@
+@import "../scss/mixin";
+@import "../scss/variables";
+
+
+button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+
+}
+
+.class_button {
+  margin-top: 90px;
+  @include common-styles();
+  position: relative;
+}
+
+.vo_simple_button {
+  border-radius: 5px;
+  font-size: 16px;
+  color: $color-black;
+  padding: 8px 45px;
+  margin: 28px 37px 0 42px;
+  position: relative;
+
+  &_color_blue {
+    color: $color-blue;
+  }
+  &_color_gray{
+    color: $color-gray;
+  }
+  &_color_white{
+    color: $color_white;
+  }
+  &:hover{
+    background-color:rgba(0, 0, 0, 0.04) ;
+  }
+  &_background_blue{
+    background-color: $color_light_blue;
+    &:hover{
+      background-color: $color-blue;
+    }
+  }
+
+}
+.vo_ripple_blue .rippleJS .ripple {
+  background: $color-blue-dark;
+}
+
+
+
+
+.vo_button_border {
+  @include shadow_button;
+}
+.vo_button_icon {
+  position: relative;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 100px;
+  color: $color-light_gray;
+
+  &_color_black{
+    color: $color-black;
+  }
+  &_color_pink{
+    color: $color-pink;
+  }
+  &_color_black_hover:hover{
+    color:$color_black;
+  }
+  &:hover{
+    background-color:rgba(0, 0, 0, 0.04) ;
+  }
+}
+.vo_ripple_gray .rippleJS .ripple {
+  background: $color-gray;
+}
+.vo_ripple_pink .rippleJS .ripple {
+  background: $color-light_pink;
+}
+.vo_ripple_orange .rippleJS .ripple{
+  background: $color_orange;
+}
+
+.vo_border_quarter {
+  border-radius: 5px;
+}
+
+.vo_floating_button {
+  position: relative;
+  padding: 20px;
+  border-radius: 100px;
+  @include shadow_button;
+  &_color_white{
+    color:$color-white;
+  }
+  &_color_gray{
+    color: $color-gray;
+  }
+  &_indent{
+    position: relative;
+  }
+  &_background_pink{
+    background-color: $color-pink;
+  }
+  &_background_blue{
+    background-color: $color-light_blue;
+  }
+  &_position{
+    margin-left: 50px;
+  }
+  &_background_green{
+    background-color: $color_green;
+  }
+}
+
+
+.vo_class_indent {
+  margin: 20px 35px 25px 70px;
+}
+
+.vo_mini_button {
+  position: relative;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 100px;
+  @include shadow_button;
+  &_color_white{
+    color:$color-white;
+  }
+  &_color_gray{
+    color: $color-gray;
+  }
+  &_background_green{
+    background-color: $color_green;
+  }
+  &_background_purple{
+    background-color: $color_purple;
+  }
+}
+
+
+.vo_position_footer {
+  display: flex;
+  flex: 0 0 50%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.vo_footer_button{
+  display: flex;
+}
+.vo_footer_right{
+  display: table-caption;
+
+ }
+ .vo_footer_right_button{
+   margin-bottom: 15px;
+ }
+
+
+//TOOLTIP
+$tooltip-width: 120px;
+.tooltip{
+  visibility: hidden;
+  opacity: 0;
+
+  width: $tooltip-width;
+  text-align: center;
+  font-family: $font-family;
+  font-size: 10px;
+  color: $color-white;
+  padding: 10px 15px;
+  background: $color-gray;
+  position: absolute;
+  transition: opacity 0.3s;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  &_left{
+    top:25%;
+    right: 110%;
+  }
+  &_top{
+    bottom: 110%;
+    left: 50%;
+    margin-left: - $tooltip-width / 2;
+  }
+  &_bottom{
+    top: 110%;
+    left: 50%;
+    margin-left: - $tooltip-width / 2;
+  }
+  &_right {
+    top: 25%;
+    left: 110%;
+  }
+}
+.tooltip_wrapper{
+  display: inline-block;
+  position: relative;
+  margin-right: 100px;
+  &:hover{
+    .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+}
+.vo_button_tooltip{
+  display: flex;
+}
+
+
+
+

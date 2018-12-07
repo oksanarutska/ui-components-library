@@ -1,0 +1,174 @@
+@import "../scss/variables";
+
+.vo_input_name {
+  font-family: $font-family;
+  font-size: 16px;
+  color: $color-very_light_gray_2;
+  width: 320px;
+  border: 0;
+  padding: 6px 0 7px;
+  display: block;
+  min-width: 0;
+  box-sizing: content-box;
+  background: none;
+
+  outline: none;
+  margin: 0 50px 50px 0;
+}
+.vo_name_placeholder::placeholder{
+  color: $color-very_light_gray_2 ;
+}
+::placeholder{
+  color: $color-gray_2 ;
+  font-weight: normal;
+}
+
+.vo_input_form {
+  display: flex;
+}
+
+.vo_input_blue_area {
+  width: 700px;
+}
+
+.vo_input_name:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  transform: scaleX(0);
+  transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  border-bottom: 2px solid #1976d2;
+  pointer-events: none;
+}
+
+.vo_input_error_message {
+  visibility: hidden;
+  color: red;
+  margin: -8px 0 0;
+  font-size: 0.75rem;
+  text-align: left;
+  font-weight: normal;
+  min-height: 1em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1em;
+}
+.vo_wrapper_input_form {
+
+  margin: 0;
+  border: 0;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  vertical-align: top;
+
+  &_error {
+    & .vo_input_error_message {
+      visibility: visible;
+    }
+
+    & .vo_wrapper_input:after,
+    & .vo_wrapper_input:before {
+      border-bottom-color: red;
+    }
+  }
+
+  &_active {
+    .vo_wrapper_input:after {
+      transform: scaleX(1);
+
+    }
+
+    .vo_label_input {
+      color: $color_blue;
+      transform: translate(0, 1.5px) scale(0.75);
+    }
+  }
+}
+
+.vo_wrapper_input {
+
+  margin-bottom: 16px;
+  font-weight: normal;
+  margin-right: 50px;
+  width: 320px;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.1875em;
+  align-items: center;
+  margin-top: 16px;
+  position: relative;
+
+  &_large_form{
+    width: 690px;
+  }
+
+  &:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid $color-very_light_gray_2;
+    pointer-events: none;
+  }
+  &:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    border-bottom: 2px solid #1976d2;
+    pointer-events: none;
+  }
+}
+
+.vo_input_text {
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  outline: none;
+  padding: 6px 0 7px;
+  display: block;
+  min-width: 0;
+  box-sizing: content-box;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 1.1875em;
+  -webkit-appearance: textfield;
+}
+
+
+.vo_label_input {
+  font-weight: normal;
+  color: $color-gray_2 ;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform-origin: top left;
+  transform: translate(0, 24px) scale(1);
+  transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+
+.vo_input_display {
+  display: flex;
+  flex-direction: column;
+}
+.vo_input_display_line{
+  flex-direction: row;
+}

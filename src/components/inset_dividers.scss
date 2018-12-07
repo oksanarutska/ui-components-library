@@ -1,0 +1,32 @@
+@import "../scss/variables";
+.icon_color{
+  color: $color_dark_purple;
+  margin-right: 35px;
+  top: 5px;
+}
+.vo_text_icon_inset{
+  font-family: $font-family;
+  color:$color_dark_gray;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: -0.1px;
+  margin-bottom: 20px;
+}
+.vo_wrapper_inset{
+  display: flex;
+  align-items: baseline;
+}
+.vo_wrapper_text_inset{
+  display: flex;
+  flex-direction: column;
+}
+.vo_color_line{
+  width: 560px;
+  background-color: $color_gray;
+}
+.vo_text_inset{
+  display: flex;
+  width: 224px;
+  flex-direction: column;
+
+}
