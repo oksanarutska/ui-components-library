@@ -12,30 +12,30 @@
 @import "../components/slider_range";
 @import "../components/inset_dividers";
 @import "../components/сard_heading_calories";
+@import "../components/list_heading";
+@import "../components/tabs";
 
-.vo_header{
+.vo_header {
   position: fixed;
-  top:0;
+  top: 0;
   width: 100%;
   height: 100px;
-  background-color:$color-green ;
+  background-color: $color-green;
   z-index: 2;
   left: 0;
   right: 0;
 }
-.vo_navbar{
-
+.vo_navbar {
   position: fixed;
-  top:100px;
+  top: 100px;
   height: 100vh;
   width: 300px;
   background-color: $color_light_green;
   z-index: 3;
   left: 0;
 }
-.vo_body{
+.vo_body {
   position: relative;
-  top:100px;
+  top: 100px;
   left: 300px;
 }
-

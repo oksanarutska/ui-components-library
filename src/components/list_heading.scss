@@ -1,0 +1,89 @@
+@import "../scss/mixin";
+@import "../scss/variables";
+
+.vo_list_wrapper {
+  width: 715px;
+  height: 830px;
+   margin-top: 50px;
+  @include box-shadows(1);
+
+}
+.vo_list_header{
+  padding-top: 17px;
+
+}
+.vo_wrapper_line_item{
+  display: flex;
+  width: 30%;
+  margin-left: 30px;
+}
+.vo_item_circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: $color-very_light_2_gray;
+  &:hover{
+    background-color: $color-light_gray;
+    cursor: pointer;
+  }
+}
+.vo_wrapper_content_item{
+  display: flex;
+  flex-direction: column;
+}
+.vo_color_content{
+  color:$color_black;
+}
+.vo_content_item_header{
+  font-family: $font-family;
+  font-size: 16px;
+  color:$color_black;
+  font-weight: bold;
+
+}
+.vo_content_item {
+  margin: 0 0 5px 15px;
+}
+.vo_gray_light_line{
+  background-color:$color-very_light_2_gray;
+  width: 715px;
+  height: 2px;
+  margin: 25px 0;
+
+}
+.vo_wrapper_lable{
+ display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  align-items: end;
+}
+.vo_content_item_2{
+  margin:0 0 0 33px;
+
+}
+.vo_wrapper_circle_label{
+display: flex;
+  margin-left: 33px;
+}
+.vo_item_circle_little{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: $color-light_gray;
+  &:hover{
+    background-color:$color-very_light_2_gray ;
+    cursor: pointer;
+  }
+}
+.vo_position-switch{
+  margin-right: 20px;
+}
+.vo_icon_comment{
+  width: 20px;
+  height: 20px;
+  color:$color-light_gray ;
+  margin-right: 30px;
+}
+.vo_wrapper_circle_item{
+  align-items: center;
+}

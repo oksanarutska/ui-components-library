@@ -1,0 +1,28 @@
+include _mixin_button
+h1.vo_b_title Buttons Tooltips
+    .class_button.vo_button_tooltip
+        .tooltip_wrapper
+                +button({
+                    label: 'arrow_forward',isRipple: true,
+                    class: 'material-icons vo_floating_button vo_ripple_pink vo_floating_button_color_white vo_floating_button_indent vo_floating_button_background_pink'
+                })
+                .tooltip.tooltip_left Tooltip
+
+        .tooltip_wrapper
+                +button({
+                    label: 'create',isRipple: true,
+                    class: 'material-icons vo_floating_button vo_floating_button_color_white vo_ripple_blue vo_floating_button_indent vo_floating_button_background_blue'
+                })
+                .tooltip.tooltip_bottom Tooltip
+        .tooltip_wrapper
+                +button({
+                    label: 'add',isRipple: true,
+                    class: 'material-icons vo_floating_button vo_floating_button_color_gray vo_ripple_gray vo_floating_button_indent'
+                })
+                .tooltip.tooltip_top Tooltip
+        .tooltip_wrapper
+                +button({
+                    label: 'check',isRipple: true,
+                    class: 'material-icons vo_floating_button vo_floating_button_color_white vo_ripple_green vo_floating_button_indent vo_floating_button_background_green'
+                })
+                .tooltip.tooltip_right Tooltip

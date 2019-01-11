@@ -1,0 +1,8 @@
+mixin button(args)
+
+    if args.isRipple
+        button(class=args.class)=args.label
+            .rippleJS
+    else
+        button(class=args.class)=args.label
+

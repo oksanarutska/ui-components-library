@@ -14,6 +14,7 @@ const fontsBlob = 'src/fonts/**';
 const stylesBlob = './src/scss/main.scss';
 const jsFiles = './src/**/*.js';
 
+
 gulp.task('d', function () {
     return runSequence('build', 'serve');
 });
@@ -87,6 +88,12 @@ gulp.task('processStyles', function () {
             browsers: ['last 2 versions']
         }))
         .pipe(gulp.dest(`${distDirectory}/css`));
+});
+
+
+gulp.task('autolint', function () {
+   return gulp.src("src/**/*.scss")
+     .pipe(postcss(processors, {syntax: syntax_scss}));
 });
 
 gulp.task('reloadBrowser', function (done) {

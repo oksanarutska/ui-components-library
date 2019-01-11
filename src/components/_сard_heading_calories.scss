@@ -2,10 +2,10 @@
 @import "../scss/mixin";
 
 .vo_data_tables{
-  width: 850px;
-  height: 920px;
+  width: 715px;
+  height: 720px;
   @include box-shadows(1);
-  margin: 0 auto;
+
 }
 
 .vo_calories_header{
@@ -26,7 +26,7 @@ color: $color_light_black;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  height: 65px;
+  height: 50px;
   border: 1px solid $color_very_light_gray;
   &_hover_blue{
     &:hover{
@@ -64,7 +64,7 @@ color: $color_light_black;
 .vo_calories_content{
   margin-left: 30px;
   font-family: $font-family;
-  font-size: 14px;
+  font-size: 12px;
   color: $color-light_gray;
   &_blue{
     color:$color-blue;
@@ -74,7 +74,7 @@ color: $color_light_black;
     margin-right: 40px;
   }
   &_black{
-    font-size: 15px;
+    font-size: 13px;
     color:$color_light_black;
     margin-right: 65px;
   }

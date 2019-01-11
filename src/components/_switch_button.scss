@@ -1,12 +1,11 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 20px;
-
+  width: 35px;
+  height: 18px;
 }
 
-.switch  {
+.switch {
   .vo_switch_button {
     opacity: 0;
     width: 0;
@@ -22,7 +21,7 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .slider.round {
@@ -30,30 +29,30 @@
 }
 
 .slider-circle,
-.slider.round:before{
+.slider.round:before {
   color: $color_light_gray;
   border-radius: 50%;
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 0;
-  bottom: -3px;
+  height: 20px;
+  width: 20px;
+  left: -1px;
+  bottom: -1px;
   background-color: $color_light_gray;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .slider-circle-ripple {
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  top: -15px;
+  top: -9px;
   border-radius: 50%;
-  left: -15px;
+  left: -9px;
 
   &:hover {
     background-color: $color_light_gray;
-    opacity: .3;
+    opacity: 0.3;
   }
 }
 
@@ -67,20 +66,20 @@
 
 .vo_switch_button:checked + .slider .slider-circle:hover .slider-circle-ripple {
   background-color: #259b24;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .vo_switch_button:checked + .slider:before,
 .vo_switch_button:checked + .slider .slider-circle {
-  transform: translateX(26px);
+  transform: translateX(20px);
   color: #259b24;
   background-color: #259b24;
 }
 
-.vo_ripple_switch.rippleJS.ripple{
+.vo_ripple_switch.rippleJS.ripple {
   opacity: 0.5;
   position: absolute;
-  top:-15px;
+  top: -15px;
   left: -12px;
   width: 50px;
   height: 50px;
