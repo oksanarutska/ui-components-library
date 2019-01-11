@@ -5,12 +5,11 @@
   display: block;
   position: relative;
   padding-left: 45px;
-
   cursor: pointer;
   font-size: 22px;
   user-select: none;
   &_contant{
-    font-size: 20px;
+    font-size: 16px;
     color: $color-black;
   }
 
@@ -30,8 +29,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 18px;
+  width: 18px;
   background: $color-white;
   border:2px solid $color-gray;
 
@@ -40,9 +39,9 @@
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    top: -11px;
-    color: $color_dark_green;
-    left: -11px;
+    top: -13px;
+    color: #009688;
+    left: -14px;
   }
 }
 
@@ -66,8 +65,8 @@
 }
 
 .vo_container .vo_checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 6px;
+  top: 3px;
   width: 4px;
   height: 8px;
   border: solid white;
@@ -90,4 +89,9 @@
 .div_check_in{
   position: relative;
 }
-
+.vo_b_chapter_content{
+  font-weight: normal;
+}
+.vo_class_items{
+  margin-top: 25px;
+}

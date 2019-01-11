@@ -6,7 +6,7 @@ button{
   cursor: pointer;
   background: none;
   border: none;
-  outline: none;
+     outline: none;
 
 }
 
@@ -20,7 +20,7 @@ button{
   border-radius: 5px;
   font-size: 16px;
   color: $color-black;
-  padding: 8px 45px;
+  padding: 10px 50px;
   margin: 28px 37px 0 42px;
   position: relative;
 
@@ -120,12 +120,16 @@ button{
 .vo_class_indent {
   margin: 20px 35px 25px 70px;
 }
-
+.vo_footer_right .vo_mini_button{
+  margin:0 auto;
+  margin-bottom:20px;
+}
 .vo_mini_button {
   position: relative;
   padding: 10px;
-  margin-left: 30px;
   border-radius: 100px;
+  margin-left: 30px;
+  margin-bottom: 30px;
   @include shadow_button;
   &_color_white{
     color:$color-white;
@@ -151,14 +155,17 @@ button{
 .vo_footer_button{
   display: flex;
 }
+.vo_footer_right:hover .vo_footer_right_button{
+  display:block;
+}
 .vo_footer_right{
   display: table-caption;
-
+  transition:10s;
  }
  .vo_footer_right_button{
    margin-bottom: 15px;
+   display:none;
  }
-
 
 //TOOLTIP
 $tooltip-width: 120px;

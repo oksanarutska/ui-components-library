@@ -1,0 +1,61 @@
+include _mixin_button
+
+.vo_list_wrapper
+    h3.vo_calories_header.vo_list_header List Heading
+    p.vo_calories_content 3 line item
+    .vo_wrapper_line_item
+        .vo_item_circle
+        .vo_wrapper_content_item
+            p.vo_content_item_header.vo_content_item First Line
+            p.vo_calories_content.vo_color_content.vo_content_item Second line of text
+            p.vo_calories_content.vo_content_item Third line of text
+    .vo_gray_light_line
+    p.vo_calories_content 2 line item
+    .vo_wrapper_line_item
+        .vo_item_circle
+        .vo_wrapper_content_item
+            p.vo_content_item_header.vo_content_item First Line
+            p.vo_calories_content.vo_color_content.vo_content_item Second line of text
+    .vo_gray_light_line
+    p.vo_calories_content Single Action Checkboxes
+    .vo_wrapper_lable
+        p.vo_content_item_header.vo_content_item_2 Label
+        label.vo_container.vo_container_contant
+            input(type="checkbox").vo_checkbox.vo_ripple_dark_green
+            span.vo_checkmark
+            div.vo_checkmark_ripple
+                .rippleJS
+    .vo_gray_light_line
+
+    p.vo_calories_content Clickable Items with Secondary Control
+        .vo_wrapper_lable
+            .vo_wrapper_circle_label
+                 .vo_item_circle_little
+                 p.vo_content_item_header.vo_content_item_2 Label
+            label.switch.vo_position-switch
+                 input(type="checkbox").vo_switch_button
+                 span.slider.round
+                    .slider-circle
+                        .slider-circle-ripple
+                            .rippleJS
+        .vo_gray_light_line
+
+    p.vo_calories_content Checkbox with Secondary Action
+        .vo_wrapper_lable
+            .vo_wrapper_circle_label
+                label.vo_container.vo_container_contant
+                    input(type="checkbox").vo_checkbox.vo_ripple_dark_green
+                    span.vo_checkmark
+                    div.vo_checkmark_ripple
+                        .rippleJS
+                p.vo_content_item_header.vo_content_item_2 Label
+            +button({label: 'comment', class: 'material-icons vo_icon_comment '})
+        .vo_gray_light_line
+
+    p.vo_calories_content Avatar with Secondary Action Icon
+        .vo_wrapper_lable
+            .vo_wrapper_circle_label.vo_wrapper_circle_item
+                .vo_item_circle
+                p.vo_content_item_header.vo_content_item_2 Firstname Lastname
+            +button({ label: 'comment', class: 'material-icons vo_icon_comment ' })
+        .vo_gray_light_line

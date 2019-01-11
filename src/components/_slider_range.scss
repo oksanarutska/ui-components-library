@@ -1,11 +1,28 @@
 @import "../scss/variables";
 
+.vo_simple_slider{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 780px;
+  height: 230px;
+  background-color: $color-light_gray_2;
+  margin-bottom: 20px;
+  &_second{
+    height: 300px;
+  }
+  &_last{
+    height: 140px;
+  }
+}
+
 .vo_slider{
   touch-action: none;
   user-select: none;
   -webkit-user-drag: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  width: 300px;
+  width: 700px;
   height: 48px;
   min-width: 128px;
   display: inline-block;
@@ -14,6 +31,7 @@
   padding: 8px;
   outline: 0;
   vertical-align: middle;
+  position: relative;
 }
 .vo_wrapper_slider{
   height: 2px;
@@ -31,7 +49,7 @@
   overflow: hidden;
 }
 .vo_slider_track_background{
-  transform: translateX(0px) scale3d(0.52, 1, 1);
+  transform: translateX(0px) scale3d(1, 1, 1);
   height: 2px;
   width: 100%;
   position: absolute;
@@ -40,13 +58,19 @@
   background-color: rgba(0,0,0,.26);
 }
 .vo_slider_track_fill{
-  transform: translateX(0px) scale3d(0.48, 1, 1);
+  transform: translateX(0px) scale3d(0, 1, 1);
   height: 2px;
   width: 100%;
-  background-color: #ff4081;
+  background-color: $color_yellow;
   position: absolute;
   transform-origin: 0 0;
   transition: transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+  &_color_blue{
+    background-color: $color_dark_blue;
+  }
+  &_color_green{
+    background-color: $color_dark_green;
+  }
 }
 .vo_slider_ticks_container{
   transform: translateX(0%);
@@ -71,7 +95,7 @@
 }
 
 .vo_slider_thumb_container{
-  transform: translateX(-52%);
+  transform: translateX(-100%);
   width: 100%;
   height: 0;
   top: 50%;
@@ -93,7 +117,7 @@
 }
 .vo_slider_thumb {
   cursor: grab;
-  background-color: #ff4081;
+  background-color: $color_yellow;
   position: absolute;
   right: -10px;
   bottom: -10px;
@@ -104,13 +128,29 @@
   border-radius: 50%;
   transform: scale(.7);
   transition: transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1);
+
+  &_focus{
+    width: 40px;
+    height: 40px;
+    bottom: -20px;
+    right: -20px;
+  }
+  &_color_blue{
+    background-color: $color_dark_blue;
+  }
+  &_opac{
+    opacity: 0;
+  }
+  &_color_green{
+    background-color: $color_dark_green;
+  }
 }
 .vo_slider_thumb_label{
   cursor: grab;
   right: -14px;
   top: -40px;
   transform: translateY(26px) scale(.01) rotate(45deg);
-  background-color: #ff4081;
+  background-color: $color_dark_green;
   display: none;
   align-items: center;
   justify-content: center;
@@ -119,15 +159,52 @@
   height: 28px;
   border-radius: 50%;
   transition: transform .4s cubic-bezier(.25,.8,.25,1),border-radius .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+ &_focus{
+   border-radius: 50% 50% 0;
+   transform: rotate(45deg);
+   display: flex;
+   cursor: grab;
+   right: -14px;
+   top: -40px;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   width: 28px;
+   height: 28px;
+   transition: transform .4s
+   cubic-bezier(.25, .8, .25,1), border-radius .4s
+   cubic-bezier(.25, .8, .25,1),background-color .4s
+ cubic-bezier(.25, .8, .25,1);
+   font-size: 14px;
+   background-color: $color_dark_green;
+
+
+ }
 }
 .vo_slider_thumb_label_text{
   transform: rotate(-45deg);
   color: #fff;
   z-index: 1;
-  opacity: 0;
+  opacity: 1;
   transition: opacity .4s cubic-bezier(.25,.8,.25,1);
   font-family: Roboto,"Helvetica Neue",sans-serif;
   font-size: 12px;
   font-weight: 500;
   cursor: grab;
+}
+.vo_input_value{
+  top: 15px;
+  right: -30px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  font-size: 16px;
+  background-color: $color-light_gray_2;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,.26);
+}
+.vo_input_text{
+  position: relative;
+  left: -30px;
+  font-size: 16px;
 }

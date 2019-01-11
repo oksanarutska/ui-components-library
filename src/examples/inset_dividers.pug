@@ -1,0 +1,32 @@
+include _mixin_button
+
+h1.vo_b_title Inset Dividers
+    .class_button
+
+        .vo_wrapper_inset
+            +button({label: 'call', isRipple: true, class: 'material-icons vo_button_icon icon_color'})
+            .vo_wrapper_text_inset
+                span.vo_text_icon_inset (650) 555-1234
+                    .vo_input_hint Mobile
+                span.vo_text_icon_inset (323) 555-6789
+                    .vo_input_hint Work
+                .vo_gray_line.vo_color_line
+
+        .vo_wrapper_inset
+            +button({label: 'email', isRipple: true, class: 'material-icons vo_button_icon icon_color'})
+            .vo_wrapper_text_inset
+                span.vo_text_icon_inset aliconnors@example.com
+                    .vo_input_hint Personal
+                span.vo_text_icon_inset ali_connors@example.com
+                    .vo_input_hint Work
+                .vo_gray_line.vo_color_line
+
+        .vo_wrapper_inset
+            +button({label: 'location_on', isRipple: true, class: 'material-icons vo_button_icon icon_color'})
+            .vo_wrapper_text_inset
+                .vo_text_inset
+                     span.vo_text_icon_inset 2000 SW 1st Ave San Francisco, CA 94112
+                         .vo_input_hint Home
+                     span.vo_text_icon_inset 1600 Amphitheatre Pkwy Mountain View, CA 94043
+                         .vo_input_hint Work
+                .vo_gray_line.vo_color_line

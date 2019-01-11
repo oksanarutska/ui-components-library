@@ -3,9 +3,8 @@
 
 .vo_button_icon_menu {
   color: $color-light_gray;
-  font-size: 30px;
+  font-size: 25px;
   margin-right: 35px;
-
 }
 
 .vo_menu_icon {
@@ -29,10 +28,9 @@
 
 .vo_icon_menu_text {
   font-family: $font-family;
-  font-size: 20px;
+  font-size: 15px;
   color: $color-light_gray;
-  font-weight:normal;
-
+  font-weight: normal;
 }
 
 .vo_gray_line {
@@ -54,11 +52,10 @@
     border-radius: 100%;
   }
 }
-.vo_menu_shadow{
+
+.vo_menu_shadow {
   padding: 25px 25px 15px 25px;
   height: 100%;
-  width: 245px;
+  width: 250px;
   @include shadow_button;
 }
-
-
